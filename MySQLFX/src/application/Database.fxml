@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane  xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DatabaseController">
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="lbl" layoutX="132.0" layoutY="157.0" text="Username shown here" />
+            <Button fx:id="button" layoutX="176.0" layoutY="292.0" mnemonicParsing="false" onAction="#clickButton" text="Connect" textFill="#070505" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane >
